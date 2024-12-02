@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopSmart E-commerce Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css " rel="stylesheet"></link>
+    <link rel="stylesheet" href="https://fontawesome.com/icons">
+</head>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to ShopSmart</h1>
+            <p>Your one-stop shop for the latest fashion trends!</p>
+            <a href="categories.html" class="Buy-now-button">Buy Now</a>
+        </section>
+
+    </main>
+
+    <header>
+        <div class="logo">ShopSmart</div>
+        <div class="search-container">
+            <form action="/search" method="GET">
+              <input type="text" name="query" placeholder="Search..." required>
+              <button type="submit">Search</button>
+            </form>
+     </div>
+    <nav class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="cart.html">Cart</a>
+    
+    </nav>
+    </header>
+ <div class="about">
+    <div class="filter">
+     <aside class="filter-sidebar">
+        <h2>Filters</h2>
+        <div>
+            <h3>Category</h3>
+            <label><input type="checkbox"> saree</label><br>
+            <label><input type="checkbox"> headphonel</label><br>
+            <label><input type="checkbox"> laptop</label><br>
+            <label><input type="checkbox"> tv</label><br>
+            <label><input type="checkbox"> Phones</label>
+            <label><input type="checkbox"> Footwear</label><br> 
+            <input type="checkbox"> Footwear</label><br> 
+        </div>
+    </aside>
+    </div>
+
+    <div class="dress">
+       <div class="heading">
+        <h2>Featured Categories</h2>
+       </div>
+
+      
+        <section class="featured-categories">
+           
+            <div class="category-grid">
+                <div class="category-card" data-category="sarees">
+                    <img src="saree.jpeg" alt="Sarees">
+                    <h3>Sarees</h3>
+                    <p class="price">₹900 <span class="original-price">₹999</span></p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="category-card" data-category="headphones">
+                    <img src="headphone.jpeg" alt="Headphones">
+                    <h3>Headphones</h3>
+                    <p class="price">₹3000 <span class="original-price">₹3060</span></p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="category-card" data-category="laptops">
+                    <img src="laptop.jpeg" alt="Laptops">
+                    <h3>Laptops</h3>
+                    <p class="price">₹990000 <span class="original-price">₹100000</span></p>
+                    <button>Add to Cart</button>
+                </div>
+          <div class="category-card" data-category="tvs">
+                    <img src="tv.jpeg" alt="TVs">
+                    <h3>Croma 32 inch HD Ready LED Linux TV with Dolby Audio</h3>
+                    <p class="price">₹12000 <span class="original-price">₹13000</span></p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+         </section>
+     </div>
+ </div>
+ 
+
+    
+        <section class="customer-reviews">
+            <h2>What Our Customers Say</h2>
+            <div class="review">
+                <p>
+                    "ShopSmart has the best collection of sarees and accessories! I'm amazed by their quality and service. Highly recommended!" 
+                    - <strong>Anjali Sharma</strong>
+                </p>
+            </div>
+            <div class="review">
+                <p>
+                    "I love how easy it is to find exactly what I need. Their categories are well-organized, and the discounts are unbeatable!"
+                    - <strong>Rohan Patel</strong>
+                </p>
+            </div>
+        </section>
+
+
+
+    <footer>
+        <div>© 2024 ShopSmart. All rights reserved.</div>
+        <nav>
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </nav>
+    </footer>
+</body>
+</html>
